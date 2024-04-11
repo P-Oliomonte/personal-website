@@ -299,6 +299,8 @@ h2 i {
   left: 10px;
 }
 
+/* V Grid Filler links und rechts neben thats-me */
+
 .filler-left1 {
   background-color: black;
   grid-column: 1 / 2;
@@ -310,6 +312,8 @@ h2 i {
   grid-column: 4 / 5;
   grid-row: 2 / 3;
 }
+
+/* V Grid Filler portfolio */
 
 .filler-left2 {
   background-color: black;
@@ -348,4 +352,100 @@ h2 i {
     white 15px,
     white 30px
   );
+}
+
+#cv {
+  display: grid;
+  grid-template-columns:
+    1fr minmax(min(40%, 600px), 1fr) minmax(min(40%, 600px), 1fr)
+    1fr;
+  grid-template-rows: 100px 1fr;
+  grid-gap: 0px;
+  width: 100%;
+  padding-top: 180px; /* to keep distance to top when anchor link clicked */
+  margin-top: -180px; /* to keep distance to top when anchor link clicked */
+}
+
+#cv h2 {
+  font-size: 40px;
+  grid-column: 2 / 4;
+  grid-row: 1 / 1;
+}
+
+#work {
+  margin-left: 4%;
+  margin-right: 6%;
+  grid-column: 2 / 3;
+  grid-row: 2 / 4;
+}
+
+#education {
+  margin-left: 6%;
+  margin-right: 4%;
+  grid-column: 3 / 4;
+  grid-row: 2 / 3;
+}
+
+#school-card {
+  margin-top: 70px;
+}
+
+#cv h3 {
+  color: white;
+  background-color: black;
+  padding: 10px;
+  font-size: 26px;
+}
+
+#cv h4 {
+  font-size: 24px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+#cv h5 {
+  font-size: 20px;
+  font-weight: 450;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 12px;
+  padding-right: 12px;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+}
+
+#cv .h5-end {
+  border-bottom: none;
+}
+
+#cv h6 {
+  background-color: black;
+  color: white;
+  font-size: 16px;
+  font-weight: 450;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 12px;
+  padding-right: 12px;
+  border-bottom: 2px solid black;
+}
+
+#cv p {
+  line-height: 1.4;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 6px;
+  padding-bottom: 10px;
+}
+
+.clients {
+  border-top: 2px dotted black;
+}
+
+.station {
+  background-color: white;
+  border: 3px solid black;
+  margin-top: 30px;
 }
