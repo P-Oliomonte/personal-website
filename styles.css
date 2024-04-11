@@ -395,6 +395,7 @@ h2 i {
   background-color: black;
   padding: 10px;
   font-size: 26px;
+  border-radius: 6px;
 }
 
 #cv h4 {
@@ -445,7 +446,9 @@ h2 i {
 }
 
 .station {
+  box-shadow: 8px 8px black;
   background-color: white;
   border: 3px solid black;
+  border-radius: 6px;
   margin-top: 30px;
 }
