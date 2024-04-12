@@ -186,6 +186,7 @@ section {
   grid-column: 3 / 4;
   grid-row: 2 / 3;
   background-color: black;
+  border-radius: 6px 0px 0px 6px;
 }
 
 #portfolio {
@@ -302,6 +303,7 @@ h2 i {
 /* V Grid Filler links und rechts neben thats-me */
 
 .filler-left1 {
+  border-radius: 0px 6px 6px 0px;
   background-color: black;
   grid-column: 1 / 2;
   grid-row: 2 / 3;
@@ -395,7 +397,7 @@ h2 i {
   background-color: black;
   padding: 10px;
   font-size: 26px;
-  border-radius: 6px;
+  /* border-radius: 6px; */
 }
 
 #cv h4 {
@@ -449,6 +451,6 @@ h2 i {
   box-shadow: 8px 8px black;
   background-color: white;
   border: 3px solid black;
-  border-radius: 6px;
+  /* border-radius: 6px; */
   margin-top: 30px;
 }
