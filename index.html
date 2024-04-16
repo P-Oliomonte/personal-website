@@ -13,20 +13,20 @@
     <header>
       <nav>
         <a href="./index.html" class="button button1">HOME</a>
-        <a href="#thats-me" class="button button2">PROFILE</a>
+        <a href="#profile" class="button button2">PROFILE</a>
         <a href="#portfolio" class="button button3">PORTFOLIO</a>
-        <a href="#cv" class="button button5">CV</a>
-        <a href="#" class="button button6">CONTACT</a>
+        <a href="#cv" class="button button4">CV</a>
+        <a href="#" class="button button5">CONTACT</a>
       </nav>
 
-      <div class="upper-container">
+      <div class="header-container">
         <h1>
-          <span>HEY THERE,</span> <br />
+          <span class="h1-highlight">HEY THERE,</span> <br />
           I'M PHILLIP. <br />
-          <span>NICE TO MEET YOU!</span>
+          <span class="h1-highlight">NICE TO MEET YOU!</span>
         </h1>
         <img
-          class="logo-ani"
+          class="logo-animation"
           src="/img/logo-ani-long.webp"
           alt="header-animation"
         />
@@ -34,110 +34,124 @@
     </header>
 
     <main>
-      <section>
-        <div id="thats-me" class="thats-me">
-          <div class="headline-profile">
-            <h2>THAT'S ME</h2>
-            <img src="./img/Icon_Profile.svg" alt="icon-profile" />
-          </div>
-          <div class="filler-left1"></div>
-          <div class="image-container">
-            <img
-              class="profile-pic"
-              src="/img/profile.jpg"
-              alt="profile-picture"
-            />
-          </div>
-          <p>
-            I'm a seasoned graphic designer calling Hamburg my home. I have over
-            a dozen years of professional experience in the design field. Before
-            that, I've crafted my skills in the academic hubs of Cologne and the
-            creative whirlwind of London.
-            <br />
-            <br />
-            I'm currently delving into the world of web development to expand my
-            creative toolkit and add some extra sprinkles to my portfolio.
-            <br />
-            <br />
-            My design spectrum? It's as varied as the cityscape at
-            sunset—ranging from sleek and professional to whimsically playful.
-            Whether it's pixels or paper, I've got you covered with a keen eye
-            for detail and a knack for bringing ideas to life.
-            <br />
-            <br />
-            When it comes to work, I'm reliable, conscientious, and always up
-            for a chat. Because let's be real, good design is not just about
-            visuals—it's about building connections.
-            <br />
-            <br />
-            Excited to collaborate? Drop me a message, and let's make some
-            design magic together.
-          </p>
-          <div class="filler-right1"></div>
+      <section id="profile" class="segment profile">
+        <div class="headline headline-profile">
+          <h2>THAT'S ME</h2>
+          <img
+            class="headline-icon"
+            src="./img/Icon_Profile.svg"
+            alt="icon-profile"
+          />
         </div>
+        <div class="filler-profile-left"></div>
+        <div class="profile-image-container">
+          <img
+            class="profile-image"
+            src="/img/profile.jpg"
+            alt="profile-picture"
+          />
+        </div>
+        <p class="profile-text">
+          I'm a seasoned graphic designer calling Hamburg my home. I have over a
+          dozen years of professional experience in the design field. Before
+          that, I've crafted my skills in the academic hubs of Cologne and the
+          creative whirlwind of London.
+          <br />
+          <br />
+          I'm currently delving into the world of web development to expand my
+          creative toolkit and add some extra sprinkles to my portfolio.
+          <br />
+          <br />
+          My design spectrum? It's as varied as the cityscape at sunset—ranging
+          from sleek and professional to whimsically playful. Whether it's
+          pixels or paper, I've got you covered with a keen eye for detail and a
+          knack for bringing ideas to life.
+          <br />
+          <br />
+          When it comes to work, I'm reliable, conscientious, and always up for
+          a chat. Because let's be real, good design is not just about
+          visuals—it's about building connections.
+          <br />
+          <br />
+          Excited to collaborate? Drop me a message, and let's make some design
+          magic together.
+        </p>
+        <div class="filler-profile-right"></div>
       </section>
 
-      <section id="portfolio" class="portfolio">
-        <div class="filler-left2"></div>
+      <section id="portfolio" class="segment portfolio">
+        <div class="filler-portfolio-left"></div>
 
-        <div class="headline-portfolio">
+        <div class="headline headline-portfolio">
           <h2>CHECK OUT MY PORTFOLIOS</h2>
-          <img src="./img/Icon_Portfolio.svg" alt="icon-portfolio" />
+          <img
+            class="headline-icon"
+            src="./img/Icon_Portfolio.svg"
+            alt="icon-portfolio"
+          />
         </div>
 
-        <div class="card-graphic">
-          <img src="/img/graphics-image.jpg" alt="graphics-image" />
-          <h3>GRAPHIC DESIGN</h3>
-          <p>Go >>></p>
+        <div class="card card-left">
+          <img
+            class="card-image"
+            src="/img/graphics-image.jpg"
+            alt="graphics-image"
+          />
+          <h3 class="card-headline">GRAPHIC DESIGN</h3>
+          <p class="card-text">Go >>></p>
         </div>
 
-        <div class="filler-middle1"></div>
+        <div class="filler-portfolio-middle"></div>
 
-        <div class="card-web">
-          <img src="/img/webdev-image.jpg" alt="webdev-image" />
-          <h3>WEB DEVELOPMENT</h3>
-          <p>Go >>></p>
+        <div class="card card-right">
+          <img
+            class="card-image"
+            src="/img/webdev-image.jpg"
+            alt="webdev-image"
+          />
+          <h3 class="card-headline">WEB DEVELOPMENT</h3>
+          <p class="card-text">Go >>></p>
         </div>
 
-        <div class="filler-right2"></div>
+        <div class="filler-portfolio-right"></div>
       </section>
 
-      <section id="cv" class="cv">
-        <div class="headline-cv">
+      <section id="cv" class="segment cv">
+        <div class="headline headline-cv">
           <h2>CV</h2>
-          <img src="./img/Icon_CV.svg" alt="icon-cv" />
+          <img class="headline-icon" src="./img/Icon_CV.svg" alt="icon-cv" />
         </div>
 
-        <div class="work">
-          <h3>WORK EXPERIENCE</h3>
+        <div class="cv-work">
+          <h3 class="cv-category">WORK EXPERIENCE</h3>
 
-          <div class="station">
-            <h6>06/2005 - today</h6>
-            <h4>Freelance</h4>
-            <h5>Art director</h5>
-            <p>
+          <div class="cv-station">
+            <h6 class="cv-station-date">06/2005 - today</h6>
+            <h4 class="cv-station-name">Freelance</h4>
+            <h5 class="cv-station-kind">Art director</h5>
+            <p class="cv-station-description">
               Concept, design and realisation of brand designs, corporate
               designs, advertising materials, illustrations, websites and
               packaging in direct collaboration with various clients
             </p>
-            <p class="clients">
+            <p class="cv-station-description cv-station-description-clients">
               <strong>Clients:</strong> Bio-Obst Augustin, Cognac Expert,
               Dissonar, Donet, Gleitsmann, Helena Reich Relations, MAISCH,
               recyclehero, Schlosser & Partner, Schwartau, SO COSI
             </p>
           </div>
 
-          <div class="station">
-            <h6>04/2010 - 02/2024</h6>
-            <h4>envise Werbeagentur / Hamburg</h4>
-            <h5>Graphic designer</h5>
-            <p>
+          <div class="cv-station">
+            <h6 class="cv-station-date">04/2010 - 02/2024</h6>
+            <h4 class="cv-station-name">envise Werbeagentur / Hamburg</h4>
+            <h5 class="cv-station-kind">Graphic designer</h5>
+            <p class="cv-station-description">
               Concept, design and realisation of brand designs, corporate
               designs, advertising material, illustrations, infographics and
               websites, in direct correspondence with customers and service
               providers
             </p>
-            <p class="clients">
+            <p class="cv-station-description cv-station-description-clients">
               <strong>Clients:</strong> Becker Marine Systems, Clean Logistics
               Continental ContiTech, eCap Mobility, elblinien, Hallite
               Dichtelemente, Hoppe Marine, HPE Hybrid Port Energy, HSVA, Lehmann
@@ -146,102 +160,109 @@
             </p>
           </div>
 
-          <div class="station">
-            <h6>04/2007 - 09/2007</h6>
-            <h4>Wunderman / Cologne</h4>
-            <h5>Internship</h5>
-            <p>
+          <div class="cv-station">
+            <h6 class="cv-station-date">04/2007 - 09/2007</h6>
+            <h4 class="cv-station-name">Wunderman / Cologne</h4>
+            <h5 class="cv-station-kind">Internship</h5>
+            <p class="cv-station-description">
               Concept and realisation of campaigns and advertising material for
               direct marketing and customer relationship marketing
             </p>
-            <p class="clients">
+            <p class="cv-station-description cv-station-description-clients">
               <strong>Clients:</strong> Kraft Foods (Tassimo), Ford, Mazda
             </p>
           </div>
 
-          <div class="station">
-            <h6>09/2003 – 12/2004</h6>
-            <h4>2wei50 Kino / Lübeck</h4>
-            <h5>Employed</h5>
-            <p>
+          <div class="cv-station">
+            <h6 class="cv-station-date">09/2003 – 12/2004</h6>
+            <h4 class="cv-station-name">2wei50 Kino / Lübeck</h4>
+            <h5 class="cv-station-kind">Employed</h5>
+            <p class="cv-station-description">
               Ticket and food counter, window and interior decoration, design of
               monthly programme and flyers for special events such as concerts
               and parties
             </p>
           </div>
 
-          <div class="station">
-            <h6>07/2002 – 06/2003</h6>
-            <h4>Malteser Hilfsorganisation / Lübeck</h4>
-            <h5>Civilian service</h5>
-            <p>
+          <div class="cv-station">
+            <h6 class="cv-station-date">07/2002 – 06/2003</h6>
+            <h4 class="cv-station-name">Malteser Hilfsorganisation / Lübeck</h4>
+            <h5 class="cv-station-kind">Civilian service</h5>
+            <p class="cv-station-description">
               Integration assistant for a disabled child in the school
               environment and home emergency call helper on standby duty
             </p>
           </div>
         </div>
 
-        <div class="education">
-          <h3>EDUCATION</h3>
-          <div class="station">
-            <h6>03/2014 – today</h6>
-            <h4>neue fische / Hamburg</h4>
-            <h5>Web development bootcamp</h5>
-            <p>
+        <div class="cv-education">
+          <h3 class="cv-category">EDUCATION</h3>
+          <div class="cv-station">
+            <h6 class="cv-station-date">03/2014 – today</h6>
+            <h4 class="cv-station-name">neue fische / Hamburg</h4>
+            <h5 class="cv-station-kind">Web development bootcamp</h5>
+            <p class="cv-station-description">
               Web development course – HTML 5, CSS, JavaScript, React, Node.js,
               Git, Shell
             </p>
           </div>
 
-          <div class="station">
-            <h6>11/2023 – 03/2024</h6>
-            <h4>Tech Labs / Hamburg</h4>
-            <h5>Digital Shaper Program</h5>
-            <p>
+          <div class="cv-station">
+            <h6 class="cv-station-date">11/2023 – 03/2024</h6>
+            <h4 class="cv-station-name">Tech Labs / Hamburg</h4>
+            <h5 class="cv-station-kind">Digital Shaper Program</h5>
+            <p class="cv-station-description">
               Web development course – HTML 5, CSS, JavaScript, React, Node.js
             </p>
           </div>
 
-          <div class="station">
-            <h6>01/2008 – 07/2009</h6>
-            <h4>Middlesex University / London</h4>
-            <h5>Graphic design</h5>
-            <p>
+          <div class="cv-station">
+            <h6 class="cv-station-date">01/2008 – 07/2009</h6>
+            <h4 class="cv-station-name">Middlesex University / London</h4>
+            <h5 class="cv-station-kind">Graphic design</h5>
+            <p class="cv-station-description">
               <strong>Degree:</strong> Bachelor of Arts (2.1 Honours) Graphic
               Design
             </p>
           </div>
 
-          <div class="station">
-            <h6>03/2005 – 06/2007</h6>
-            <h4>Kölner Design Akademie / Köln</h4>
-            <h5>Graphic design</h5>
-            <p><strong>Degree:</strong> Diploma in Design (KDA)</p>
+          <div class="cv-station">
+            <h6 class="cv-station-date">03/2005 – 06/2007</h6>
+            <h4 class="cv-station-name">Kölner Design Akademie / Köln</h4>
+            <h5 class="cv-station-kind">Graphic design</h5>
+            <p class="cv-station-description">
+              <strong>Degree:</strong> Diploma in Design (KDA)
+            </p>
           </div>
 
-          <div class="school-card">
-            <h3>SCHOOL</h3>
+          <div class="cv-education-school">
+            <h3 class="cv-category">SCHOOL</h3>
 
-            <div class="station">
-              <h6>08/1999 – 06/2002</h6>
-              <h4>Johanneum zu Lübeck / Lübeck</h4>
-              <h5>Secondary school</h5>
-              <p><strong>Degree:</strong> Abitur</p>
+            <div class="cv-station">
+              <h6 class="cv-station-date">08/1999 – 06/2002</h6>
+              <h4 class="cv-station-name">Johanneum zu Lübeck / Lübeck</h4>
+              <h5 class="cv-station-kind">Secondary school</h5>
+              <p class="cv-station-description">
+                <strong>Degree:</strong> Abitur
+              </p>
             </div>
 
-            <div class="station">
-              <h6>08/1993 – 06/1999</h6>
-              <h4>Thomas-Mann-Schule / Lübeck</h4>
-              <h5 class="h5-end">Secondary school</h5>
+            <div class="cv-station">
+              <h6 class="cv-station-date">08/1993 – 06/1999</h6>
+              <h4 class="cv-station-name">Thomas-Mann-Schule / Lübeck</h4>
+              <h5 class="cv-station-kind cv-station-kind-end">
+                Secondary school
+              </h5>
             </div>
 
-            <div class="station">
-              <h6>07/1989 – 06/1993</h6>
-              <h4>Kalandschule / Lübeck</h4>
-              <h5 class="h5-end">Primary school</h5>
+            <div class="cv-station">
+              <h6 class="cv-station-date">07/1989 – 06/1993</h6>
+              <h4 class="cv-station-name">Kalandschule / Lübeck</h4>
+              <h5 class="cv-station-kind cv-station-kind-end">
+                Primary school
+              </h5>
             </div>
           </div>
-         </div>
         </div>
       </section>
     </main>
