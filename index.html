@@ -2,7 +2,11 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1 minimum-scale=1"
+    />
 
     <link rel="stylesheet" type="text/css" href="styles.css" />
     <script src="./index.js" defer></script>
@@ -19,30 +23,30 @@
         <a href="#cv" class="nav-link nav-link4">CV</a>
         <a href="#" class="nav-link nav-link5">CONTACT</a>
       </nav>
-
-      <div class="header-container">
-        <h1>
-          <span class="h1-highlight">HEY THERE,</span> <br />
-          I'M PHILLIP. <br />
-          <span class="h1-highlight">NICE TO MEET YOU!</span>
-        </h1>
-        <img
-          class="logo-animation"
-          src="/img/logo-ani-long.webp"
-          alt="header-animation"
-        />
-      </div>
     </header>
+
+    <div class="header-container">
+      <h1>
+        <span class="h1-highlight">HEY THERE,</span> <br />
+        I'M PHILLIP. <br />
+        <span class="h1-highlight">NICE TO MEET YOU!</span>
+      </h1>
+      <img
+        class="logo-animation"
+        src="/img/logo-ani-long.webp"
+        alt="header-animation"
+      />
+    </div>
 
     <main>
       <section id="profile" class="segment profile">
+        <img
+          class="headline-icon headline-icon-profile"
+          src="./img/Icon_Profile.svg"
+          alt="icon-profile"
+        />
         <div class="headline headline-profile">
           <h2>THAT'S ME</h2>
-          <img
-            class="headline-icon"
-            src="./img/Icon_Profile.svg"
-            alt="icon-profile"
-          />
         </div>
         <div class="filler-profile-left"></div>
         <div class="profile-image-container">
@@ -52,6 +56,7 @@
             alt="profile-picture"
           />
         </div>
+        <div class="filler-profile-right"></div>
         <p class="profile-text">
           I'm a seasoned graphic designer calling Hamburg my home. I have over a
           dozen years of professional experience in the design field. Before
@@ -77,19 +82,17 @@
           Excited to collaborate? Drop me a message, and let's make some design
           magic together.
         </p>
-        <div class="filler-profile-right"></div>
       </section>
 
       <section id="portfolio" class="segment portfolio">
         <div class="filler-portfolio-left"></div>
-
+        <img
+          class="headline-icon"
+          src="./img/Icon_Portfolio.svg"
+          alt="icon-portfolio"
+        />
         <div class="headline headline-portfolio">
           <h2>CHECK OUT MY PORTFOLIOS</h2>
-          <img
-            class="headline-icon"
-            src="./img/Icon_Portfolio.svg"
-            alt="icon-portfolio"
-          />
         </div>
 
         <div class="card card-left" data-js="card-left">
@@ -119,9 +122,9 @@
       </section>
 
       <section id="cv" class="segment cv">
+        <img class="headline-icon" src="./img/Icon_CV.svg" alt="icon-cv" />
         <div class="headline headline-cv">
           <h2>CV</h2>
-          <img class="headline-icon" src="./img/Icon_CV.svg" alt="icon-cv" />
         </div>
 
         <div class="cv-work">
@@ -236,34 +239,32 @@
               <strong>Degree:</strong> Diploma in Design (KDA)
             </p>
           </div>
+        </div>
 
-          <div class="cv-education-school">
-            <h3 class="cv-category">SCHOOL</h3>
+        <div class="cv-school">
+          <h3 class="cv-category">SCHOOL</h3>
 
-            <div class="cv-station">
-              <h6 class="cv-station-date">08/1999 – 06/2002</h6>
-              <h4 class="cv-station-name">Johanneum zu Lübeck / Lübeck</h4>
-              <h5 class="cv-station-kind">Secondary school</h5>
-              <p class="cv-station-description">
-                <strong>Degree:</strong> Abitur
-              </p>
-            </div>
+          <div class="cv-station">
+            <h6 class="cv-station-date">08/1999 – 06/2002</h6>
+            <h4 class="cv-station-name">Johanneum zu Lübeck / Lübeck</h4>
+            <h5 class="cv-station-kind">Secondary school</h5>
+            <p class="cv-station-description">
+              <strong>Degree:</strong> Abitur
+            </p>
+          </div>
 
-            <div class="cv-station">
-              <h6 class="cv-station-date">08/1993 – 06/1999</h6>
-              <h4 class="cv-station-name">Thomas-Mann-Schule / Lübeck</h4>
-              <h5 class="cv-station-kind cv-station-kind-end">
-                Secondary school
-              </h5>
-            </div>
+          <div class="cv-station">
+            <h6 class="cv-station-date">08/1993 – 06/1999</h6>
+            <h4 class="cv-station-name">Thomas-Mann-Schule / Lübeck</h4>
+            <h5 class="cv-station-kind cv-station-kind-end">
+              Secondary school
+            </h5>
+          </div>
 
-            <div class="cv-station">
-              <h6 class="cv-station-date">07/1989 – 06/1993</h6>
-              <h4 class="cv-station-name">Kalandschule / Lübeck</h4>
-              <h5 class="cv-station-kind cv-station-kind-end">
-                Primary school
-              </h5>
-            </div>
+          <div class="cv-station">
+            <h6 class="cv-station-date">07/1989 – 06/1993</h6>
+            <h4 class="cv-station-name">Kalandschule / Lübeck</h4>
+            <h5 class="cv-station-kind cv-station-kind-end">Primary school</h5>
           </div>
         </div>
       </section>
