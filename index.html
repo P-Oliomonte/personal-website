@@ -21,7 +21,7 @@
         <a href="#profile" class="nav-link nav-link2">PROFILE</a>
         <a href="#portfolio" class="nav-link nav-link3">PORTFOLIO</a>
         <a href="#cv" class="nav-link nav-link4">CV</a>
-        <a href="#" class="nav-link nav-link5">CONTACT</a>
+        <a href="#contact" class="nav-link nav-link5">CONTACT</a>
       </nav>
     </header>
 
@@ -127,7 +127,7 @@
           <h2>CV</h2>
         </div>
 
-        <div class="cv-work">
+        <div class="cv-chapter">
           <h3 class="cv-category">WORK EXPERIENCE</h3>
 
           <div class="cv-station">
@@ -200,7 +200,7 @@
           </div>
         </div>
 
-        <div class="cv-education">
+        <div class="cv-chapter">
           <h3 class="cv-category">EDUCATION</h3>
           <div class="cv-station">
             <h6 class="cv-station-date">03/2014 – today</h6>
@@ -241,7 +241,7 @@
           </div>
         </div>
 
-        <div class="cv-school">
+        <div class="cv-chapter">
           <h3 class="cv-category">SCHOOL</h3>
 
           <div class="cv-station">
@@ -267,6 +267,47 @@
             <h5 class="cv-station-kind cv-station-kind-end">Primary school</h5>
           </div>
         </div>
+      </section>
+
+      <section id="contact" class="segment contact">
+        <img class="headline-icon" src="./img/Icon_CV.svg" alt="icon-cv" />
+        <div class="headline headline-contact">
+          <h2>Drop me a message</h2>
+        </div>
+        <form class="contact-form">
+          <label class="contact-form-label" for="email">Email*</label>
+          <input
+            class="contact-form-input"
+            type="email"
+            id="email"
+            name="email"
+            required
+          />
+          <label class="contact-form-label" for="subject">Subject*</label>
+          <input
+            class="contact-form-input"
+            type="text"
+            name="subject"
+            id="subject"
+            required
+          />
+          <label class="contact-form-label" for="message">Your message*</label>
+          <textarea
+            class="contact-form-input contact-form-input-message"
+            id="message"
+            name="message"
+            rows="8"
+            required
+          ></textarea>
+          <p>*required</p>
+          <button
+            class="contact-form-button-submit"
+            type="submit"
+            name="submit-button"
+          >
+            Send
+          </button>
+        </form>
       </section>
     </main>
   </body>
